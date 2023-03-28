@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Kunal from './Kunal';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="profile">
+      <div className="w-50">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png"></img>
+      </div>
+      <div className="w-50">
+        {/* <h1>Kunal Kaklotar</h1> */}
+
+      </div>
+      <Kunal name="Kunal Kaklotar" skills={["html","html5","css","css3","media query","jquery","bootstrap","java script","reactjs"]} />
     </div>
   );
 }
